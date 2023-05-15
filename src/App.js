@@ -259,7 +259,6 @@ return  (
 )
 }*/
  function App(){
-
   const [githubUser,setGithubUser] = useState([]);
 
   useEffect(()=>{
@@ -267,6 +266,7 @@ return  (
       setGithubUser(date)
     })
   },[])
+
   return (
     <div>
       {
